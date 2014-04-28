@@ -7,8 +7,15 @@ tagline: Things I've worked on and made in reverse chronological order
 
 # Projects
 
+
+
+
 ## Unreleased
 * **[jottl](http://jottl.com/)** - And HTML5 video host and browsing platform.
+
+
+
+
 
 ## Released
 * [**The MilkenKnights: Team 1836**](http://themilkenknights.com/) - My high school's robotics team. I was team captain in 2014 and created the website in less than one day. - *Source Code Unavailable*
@@ -19,6 +26,9 @@ tagline: Things I've worked on and made in reverse chronological order
 * [**Most Common Words**](https://github.com/drkabob/most-common-words) - A website that finds the most common words on a reddit comment thread. - [*GitHub*](https://github.com/drkabob/most-common-words)
 * [**guppy**](http://guppy.uk.to) - An IRC bot framework and plugin collection that I contributed to for a small while. - [*Source Code*](http://repo.or.cz/w/guppy.git)
 * [**SimpleBot**](https://gitorious.org/simplebot) - An IRC bot framework - [*Gitorious*](https://gitorious.org/simplebot)
+
+
+
 
 
 # Toys
