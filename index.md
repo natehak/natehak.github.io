@@ -7,4 +7,6 @@ tagline: Hi there! Welcome to my website!
 
 So it seems you've found my website. Congrats!
 
-There's not much here yet. That will hopefull change soon...
+You can check out [my portfolio](http://nathancod.es/portfolio.html) and [my blog](http://nathancod.es/archive.html).
+
+There will be more stuff coming soon, so just wait!
