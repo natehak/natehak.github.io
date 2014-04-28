@@ -2,6 +2,7 @@
 layout: page
 title: Portfolio
 tagline: Things I've worked on and made in reverse chronological order
+group: navigation
 ---
 {% include JB/setup %}
 
