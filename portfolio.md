@@ -36,6 +36,7 @@ group: navigation
 
 *Little bits of code that do not have much purpose, but were fun to make.*
 
+* [**ImageShaker**](http://nathancod.es/ImageShaker/) - Give it an image and some parameters to affect shaking, and it will shake the image for you. - [*GitHub*](https://github.com/drkabob/ImageShaker)
 * [**Flashing Number Counter**](http://nathancod.es/FlashingNumberCounter/) - *WARNING: CONTAINS FLASHING LIGHTS, STROBE EFFECTS, AND VIGOROUS MATHEMATICS. IF YOU ARE SENSITIVE TO ANY OF THESE, PLEASE DO NOT VIEW.* Counts really quickly with flashing colors to keep you interested. - [*GitHub*](https://github.com/drkabob/FlashingNumberCounter)
 * [**BeGeneric**](http://nathancod.es/BeGeneric/) - Generates generic wallpapers. - [*GitHub*](https://github.com/drkabob/BeGeneric)
 * [**Sanic Page**](http://nathancod.es/sanic/) - A test with [Google Web Designer](https://www.google.com/webdesigner/). If you don't understand what this is about [this page might clear up the confusion.](http://knowyourmeme.com/memes/sanic) - [*GitHub*](https://github.com/drkabob/drkabob.github.io/tree/master/sanic)
