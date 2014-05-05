@@ -12,7 +12,7 @@ group: navigation
 
 
 ## Unreleased
-* **[jottl](http://jottl.com/)** - And HTML5 video host and browsing platform.
+* **[jottl](http://jottl.com/)** - An HTML5 video host and browsing platform.
 
 
 
