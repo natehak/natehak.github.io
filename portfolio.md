@@ -36,6 +36,7 @@ group: navigation
 
 *Little bits of code that do not have much purpose, but were fun to make.*
 
+* [**TwitchBox**](http://nathancod.es/TwitchBox/) - A tool for looking at a Twitch and Hitbox chat at the same time. You can also change where the stream is being sourced from. - [*GitHub*](https://github.com/drkabob/TwitchBox)
 * [**ImageShaker**](http://nathancod.es/ImageShaker/) - Give it an image and some parameters to affect shaking, and it will shake the image for you. - [*GitHub*](https://github.com/drkabob/ImageShaker)
 * [**Flashing Number Counter**](http://nathancod.es/FlashingNumberCounter/) - *WARNING: CONTAINS FLASHING LIGHTS, STROBE EFFECTS, AND VIGOROUS MATHEMATICS. IF YOU ARE SENSITIVE TO ANY OF THESE, PLEASE DO NOT VIEW.* Counts really quickly with flashing colors to keep you interested. - [*GitHub*](https://github.com/drkabob/FlashingNumberCounter)
 * [**BeGeneric**](http://nathancod.es/BeGeneric/) - Generates generic wallpapers. - [*GitHub*](https://github.com/drkabob/BeGeneric)
