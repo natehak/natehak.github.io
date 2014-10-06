@@ -18,10 +18,6 @@ title: Portfolio
 * [**guppy**](http://guppy.uk.to) - An IRC bot framework and plugin collection that I contributed to for a small while. - [*Source Code*](http://repo.or.cz/w/guppy.git)
 * [**SimpleBot**](https://gitorious.org/simplebot) - An IRC bot framework - [*Gitorious*](https://gitorious.org/simplebot)
 
-
-
-
-
 # Toys
 
 *Little bits of code that do not have much purpose, but were fun to make.*
