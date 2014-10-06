@@ -1,24 +1,14 @@
 ---
 layout: page
 title: Portfolio
-tagline: Things I've worked on and made in reverse chronological order
-group: navigation
 ---
-{% include JB/setup %}
-
 # Projects
-
-
-
 
 ## Unreleased
 * **[jottl](http://jottl.com/)** - An HTML5 video host and browsing platform.
 
-
-
-
-
 ## Released
+* [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to compliment the new AP Computer Science cirriculum that I helped write. - *Source Code Unavailable*
 * [**The MilkenKnights: Team 1836**](http://themilkenknights.com/) - My high school's robotics team. I was team captain in 2014 and created the website in less than one day. - *Source Code Unavailable*
 * [**Jiffy: Chrome Extension**](https://chrome.google.com/webstore/detail/jiffy-the-gif-creating-pl/nlcjegmhpnnlbkpcfbechbjicnakhben?hl=en) - A Chrome extension that makes animated GIF images from YouTube videos without leaving the YouTube site. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyPlugin)
 * [**JiffyBot**](https://reddit.com/r/jiffybot) - A reddit bot that makes animated GIF images from YouTube videos that can be called from a reddit comment thread. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyBot)
