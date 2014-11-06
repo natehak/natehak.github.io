@@ -4,9 +4,6 @@ title: Portfolio
 ---
 # Projects
 
-## Unreleased
-* **[jottl](http://jottl.com/)** - An HTML5 video host and browsing platform.
-
 ## Released
 * [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to compliment the new AP Computer Science cirriculum that I helped write. - *Source Code Unavailable*
 * [**The MilkenKnights: Team 1836**](http://themilkenknights.com/) - My high school's robotics team. I was team captain in 2014 and created the website in less than one day. - *Source Code Unavailable*
