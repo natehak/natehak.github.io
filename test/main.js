@@ -100,10 +100,21 @@ function colorCell(orderedPair) {
 
     var color = CellTypeColor[level[orderedPair.x][orderedPair.y]];
 
-    context.fillStyle = color;
-    context.fillRect(orderedPair.x * verticalDistance, orderedPair.y * horizontalDistance, verticalDistance, horizontalDistance);
+    var canvasX = orderedPair.x * verticalDistance;
+    var canvasY = orderedPair.y * horizontalDistance;
 
-    drawGrid();
+    context.fillStyle = color;
+    context.fillRect(canvasX, canvasY, verticalDistance, horizontalDistance);
+
+    // Redraw the grid because it gets messed up when using white (draws over it)
+    context.moveTo(canvasX, canvasY);
+    context.lineTo(canvasX + verticalDistance, canvasY);
+    context.lineTo(canvasX + verticalDistance, canvasY + horizontalDistance);
+    context.lineTo(canvasX, canvasY + horizontalDistance);
+    context.lineTo(canvasX, canvasY);
+
+    context.strokeStyle = "#000000";
+    context.stroke();
 
 }
 
