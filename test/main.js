@@ -19,6 +19,13 @@ if (window.innerHeight < window.innerWidth) {
 var verticalDistance = canvas.width / gridLength;
 var horizontalDistance = canvas.height / gridLength;
 
+// We need this variable to manually keep track of whether the mouse
+// is down or not since JavaScript doesn't take care of that.
+// They are integers as opposed to booleans in case the user has two mice and clicks
+// one button while the other is pressed.
+var primaryMouseDown = 0;
+var secondaryMouseDown = 0;
+
 // Cell type enumerator
 // Why? Magic numbers are ugly.
 CellType = {
@@ -111,24 +118,27 @@ function colorGrid() {
     drawGrid();
 }
 
-function onClick(event) {
-    var canvasPosition = getCanvasCursorPosition(event);
+function onMove(event) {
+    // We only care about coloring if the mouse is clicked
+    // Otherwise its very unintuitive to how to draw if the mouse just starts drawing everything
+    if (primaryMouseDown || event.type == "click") {
+        var canvasPosition = getCanvasCursorPosition(event);
 
-    // Get the cell we chose since we don't really care about where on the canvas we are.
-    // Knowing which cell the user clicked is all that matters.
-    // We use Math.floor because we want a simple integer so we can modify the level array
-    var cellX = Math.floor(canvasPosition.x / verticalDistance);
-    var cellY = Math.floor(canvasPosition.y / horizontalDistance);
+        // Get the cell we chose since we don't really care about where on the canvas we are.
+        // Knowing which cell the user clicked is all that matters.
+        // We use Math.floor because we want a simple integer so we can modify the level array
+        var cellX = Math.floor(canvasPosition.x / verticalDistance);
+        var cellY = Math.floor(canvasPosition.y / horizontalDistance);
 
-    if (document.getElementById("erase").checked) {
-        drawType = CellType.EMPTY;
-    } else {
+        if (document.getElementById("erase").checked) {
+            drawType = CellType.EMPTY;
+        } else {
         drawType = CellType.OBSTACLE;
+        }
+        level[cellX][cellY] = drawType;
+
+        colorCell(new OrderedPair(cellX, cellY));
     }
-    level[cellX][cellY] = drawType;
-
-    colorCell(new OrderedPair(cellX, cellY));
-
 }
 
 // Javascript only gives us the position for the whole window while we only care about the canvas
@@ -149,7 +159,27 @@ function getCanvasCursorPosition(event) {
     return new OrderedPair(x, y);
 }
 
-canvas.addEventListener("click", onClick, false);
+canvas.addEventListener("mousemove", onMove, false);
+canvas.addEventListener("click", onMove, false);
+
+// Keeps track of mouse downs because JavaScript doesn't do it for us
+document.body.onmousedown = function(event) {
+    if(event.button == 0) {
+        ++primaryMouseDown;
+    } else if (event.button == 2) {
+        ++secondaryMouseDown;
+    }
+}
+
+
+document.body.onmouseup = function(event) {
+    if(event.button == 0) {
+        --primaryMouseDown;
+    } else if (event.button == 2) {
+        --secondaryMouseDown;
+    }
+}
+
 
 initializeLevel();
 drawGrid();
