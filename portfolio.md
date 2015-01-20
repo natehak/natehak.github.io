@@ -5,14 +5,13 @@ title: Portfolio
 # Projects
 
 ## Released
+* [**Embrace Your Warrior**](http://www.embraceyourwarrior.com/) - I wrote a custom WordPress theme and a few customs to put together a self-help and life protip blog for my sisters. I also act as the site's system administrator- *Source Code Unavailable*
 * [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to compliment the new AP Computer Science cirriculum that I helped write. - *Source Code Unavailable*
-* [**The MilkenKnights: Team 1836**](http://themilkenknights.com/) - My high school's robotics team. I was team captain in 2014 and created the website in less than one day. - *Source Code Unavailable*
 * [**Jiffy: Chrome Extension**](https://chrome.google.com/webstore/detail/jiffy-the-gif-creating-pl/nlcjegmhpnnlbkpcfbechbjicnakhben?hl=en) - A Chrome extension that makes animated GIF images from YouTube videos without leaving the YouTube site. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyPlugin)
 * [**JiffyBot**](https://reddit.com/r/jiffybot) - A reddit bot that makes animated GIF images from YouTube videos that can be called from a reddit comment thread. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyBot)
 * [**SteamGroupChatBot**](http://steamcommunity.com/id/groupchatbot) - A Steam bot that allows for persistant group chats on Steam. - [*GitHub*](https://github.com/drkabob/SteamGroupChatBot)
 * [**SteamBot**](http://reddit.com/u/SteamBot) - A reddit bot that links Steam accounts to reddit accounts. Is a full security suite for Steam trading subreddits that detects scammers and ban evaders. - *Source Code Unavailable*
 * [**Most Common Words**](https://github.com/drkabob/most-common-words) - A website that finds the most common words on a reddit comment thread. - [*GitHub*](https://github.com/drkabob/most-common-words)
-* [**guppy**](http://guppy.uk.to) - An IRC bot framework and plugin collection that I contributed to for a small while. - [*Source Code*](http://repo.or.cz/w/guppy.git)
 * [**SimpleBot**](https://gitorious.org/simplebot) - An IRC bot framework - [*Gitorious*](https://gitorious.org/simplebot)
 
 # Toys
@@ -22,7 +21,4 @@ title: Portfolio
 * [**Bounce**](http://nathancod.es/Bounce/) - Does the bounce effect from the DVD idle screen and the Solitaire win effect at the same time! Use instructions in GitHub - [*GitHub*](https://github.com/drkabob/Bounce)
 * [**TwitchBox**](http://nathancod.es/TwitchBox/) - A tool for looking at a Twitch and Hitbox chat at the same time. You can also change where the stream is being sourced from. - [*GitHub*](https://github.com/drkabob/TwitchBox)
 * [**ImageShaker**](http://nathancod.es/ImageShaker/) - Give it an image and some parameters to affect shaking, and it will shake the image for you. - [*GitHub*](https://github.com/drkabob/ImageShaker)
-* [**Flashing Number Counter**](http://nathancod.es/FlashingNumberCounter/) - *WARNING: CONTAINS FLASHING LIGHTS, STROBE EFFECTS, AND VIGOROUS MATHEMATICS. IF YOU ARE SENSITIVE TO ANY OF THESE, PLEASE DO NOT VIEW.* Counts really quickly with flashing colors to keep you interested. - [*GitHub*](https://github.com/drkabob/FlashingNumberCounter)
 * [**BeGeneric**](http://nathancod.es/BeGeneric/) - Generates generic wallpapers. - [*GitHub*](https://github.com/drkabob/BeGeneric)
-* [**Sanic Page**](http://nathancod.es/sanic/) - A test with [Google Web Designer](https://www.google.com/webdesigner/). If you don't understand what this is about [this page might clear up the confusion.](http://knowyourmeme.com/memes/sanic) - [*GitHub*](https://github.com/drkabob/drkabob.github.io/tree/master/sanic)
-* [**SwagDrive**](http://www.chiefdelphi.com/forums/showthread.php?threadid=116538) - A drive code I wrote as a joke. Makes robots drive inconsistantly and spin in circles every now and then. Increases robot's swag and increases its YOLO. - [*GitHub Gist*](https://gist.github.com/drkabob/4a3dad13601a95a9e39b)
