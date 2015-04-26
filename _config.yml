@@ -1,7 +1,7 @@
 # Site settings
 title: Nathan Hakkakzadeh
 baseurl: ""
-url: "http://nathancod.es"
+url: "http://nathanh.me"
 timezone: America/Los_Angeles
 
 # Build settings
@@ -9,7 +9,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: pygments
 
-email: hello@nathancod.es
+email: nathan@nathanh.me
 
 # Excluded files
 exclude:
