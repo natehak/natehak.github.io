@@ -10,7 +10,7 @@ title: Portfolio
 * [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to complement the new AP Computer Science cirriculum that I helped write.
 * [**Jiffy: Chrome Extension**](https://chrome.google.com/webstore/detail/jiffy-the-gif-creating-pl/nlcjegmhpnnlbkpcfbechbjicnakhben?hl=en) - A Chrome extension that makes animated GIF images from YouTube videos without leaving the YouTube site. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyPlugin)
 * [**JiffyBot**](https://reddit.com/r/jiffybot) - A reddit bot that makes animated GIF images from YouTube videos that can be called from a reddit comment thread. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyBot)
-* [**SteamGroupChatBot**](http://steamcommunity.com/id/groupchatbot) - A Steam bot that allows for persistant group chats on Steam. - [*GitHub*](https://github.com/drkabob/SteamGroupChatBot)
+* [**SteamGroupChatBot**](http://steamcommunity.com/id/groupchatbot) - A Steam bot that allows for persistent group chats on Steam. - [*GitHub*](https://github.com/drkabob/SteamGroupChatBot)
 * [**SteamBot**](http://reddit.com/u/SteamBot) - A reddit bot that links Steam accounts to reddit accounts. Is a full security suite for Steam trading subreddits that detects scammers and ban evaders. - *Source Code Unavailable*
 * [**Most Common Words**](https://github.com/drkabob/most-common-words) - A website that finds the most common words on a reddit comment thread. - [*GitHub*](https://github.com/drkabob/most-common-words)
 
