@@ -7,7 +7,7 @@ title: Portfolio
 ## Released
 * **Simplifeye** - A software suite for orthodontists that allows them to pull up x-rays and other data from their electronic health record database, hands-free. I worked as CTO for three months.
 * [**ClipRoulette (site is down!)**](http://clip.nathanh.me/) - A hackathon project by myself and Alex Yao that I've expanded on a little bit. Generates random clips from random YouTube videos and just displays them to you.
-* [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to compliment the new AP Computer Science cirriculum that I helped write.
+* [**Milken Computer Science Website**](http://aegis.milkenschool.org/) - As an alumn I wrote a new website to complement the new AP Computer Science cirriculum that I helped write.
 * [**Jiffy: Chrome Extension**](https://chrome.google.com/webstore/detail/jiffy-the-gif-creating-pl/nlcjegmhpnnlbkpcfbechbjicnakhben?hl=en) - A Chrome extension that makes animated GIF images from YouTube videos without leaving the YouTube site. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyPlugin)
 * [**JiffyBot**](https://reddit.com/r/jiffybot) - A reddit bot that makes animated GIF images from YouTube videos that can be called from a reddit comment thread. - [*GitHub*](https://github.com/drkabob/Jiffy/tree/master/JiffyBot)
 * [**SteamGroupChatBot**](http://steamcommunity.com/id/groupchatbot) - A Steam bot that allows for persistant group chats on Steam. - [*GitHub*](https://github.com/drkabob/SteamGroupChatBot)
