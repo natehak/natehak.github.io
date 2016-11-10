@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/natehak
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://nathanh.me
+    * I am natehak (https://keybase.io/natehak) on keybase.
+      * I have a public key with fingerprint 8567 C633 128F 5D55 97CE  F408 486D 6638 F551 81DD
+
+      To do so, I am signing this object:
+
+      {
+          "body": {
+                  "key": {
+                              "eldest_kid": "010167183ecf7647387fab166e7bb551cfd1491e45f97a75efd1407f670009f15dc20a",
+                                          "fingerprint": "8567c633128f5d5597cef408486d6638f55181dd",
+                                                      "host": "keybase.io",
+                                                                  "key_id": "486d6638f55181dd",
+                                                                              "kid": "010167183ecf7647387fab166e7bb551cfd1491e45f97a75efd1407f670009f15dc20a",
+                                                                                          "uid": "223d1377ac9dd39c599d1734a80f8b19",
+                                                                                                      "username": "natehak"
+                                                                                                              },
+                                                                                                                      "service": {
+                                                                                                                                  "hostname": "nathanh.me",
+                                                                                                                                              "protocol": "http:"
+                                                                                                                                                      },
+                                                                                                                                                              "type": "web_service_binding",
+                                                                                                                                                                      "version": 1
+                                                                                                                                                                          },
+                                                                                                                                                                              "ctime": 1478761396,
+                                                                                                                                                                                  "expire_in": 157680000,
+                                                                                                                                                                                      "prev": "47c33ec365d52f575d70346efef20e0461634f25f52a105405beb2bc937b7310",
+                                                                                                                                                                                          "seqno": 5,
+                                                                                                                                                                                              "tag": "signature"
+                                                                                                                                                                                              }
+
+                                                                                                                                                                                              which yields the signature:
+
+                                                                                                                                                                                              -----BEGIN PGP MESSAGE-----
+                                                                                                                                                                                              Version: Keybase OpenPGP v2.0.58
+                                                                                                                                                                                              Comment: https://keybase.io/crypto
+
+                                                                                                                                                                                              yMIlAnicrVJbSFRBGF63tsuGkEV0cV861EMhNnPmzMw5i1lBS0F0QbIyqu1c5riH
+                                                                                                                                                                                              tT3r3ixro6Dal0DLLO0iXdRAoatJYondHrpDQVRUmEGU9pRFsWA1R4peeuxp+D++
+                                                                                                                                                                                              /5vv+/hv545yeXPO7g20Vx0vqcm5f6Mu6Vo3K79ju6DZxjbBv10Is5GHVRgsngiG
+                                                                                                                                                                                              LUPwCwACSCiUEdNNSiSKZGqqGiSEUU3DGOqmASUFMgmbClUpZs4MqEkoAEAxITZ0
+                                                                                                                                                                                              EahCgWBakXIWi8asSILLyphQnSAERdnEBsYK1ZkpAVmSiUEI4iCGMjQMvhiy484G
+                                                                                                                                                                                              N6epcVZo2RzjQ3DE3j/4/9l3ckROFJEBEaWqrhgGUnSsKAakSFJlYMoaVBxinMUi
+                                                                                                                                                                                              6hbG2RE1wUJqWEgXCBxMWTpzenWC/CWE1EiokA8FQjRmJ2zdruB4KJGI+p21xLao
+                                                                                                                                                                                              w6tiWvC3QlCzIgbvkC+kWCxu2RHBDzlTT1iOJJSoTAlECikQ2NaoFWNBy2FgSmSe
+                                                                                                                                                                                              CDjfsJTTGNURLwURXrtoYooNCpBEmMlMETAgEUiQZIrYxKIKAZYA1pgmarqCqEYR
+                                                                                                                                                                                              BIKTqTJiC37MbarlXDJulfNAyRgT0jd7N4x25XhdYzxu57Zc3vET/1zcikljfxov
+                                                                                                                                                                                              Mm1fstcv5K25M7ZbPZwpW9G4wOq65T30vTX3iGvqpeHKoaIS5imvdVeXNpR29ou+
+                                                                                                                                                                                              ydkZ1uqLlj7g7/wJV9690RpYe6rx4/SZO07vDW4MLPK0Pt+/ryRZuGrOlWPfmsVJ
+                                                                                                                                                                                              Wx7N3Xgw0Nzrq6wue9gf9K05SodbmuI77/V8mBducTfU12U8oXRRz5SnT95NmbBj
+                                                                                                                                                                                              1zg0dPnBiflXL7V7P6UqetJPcaZ46St9U2Z9Bi7ZV9b3LH9o92jfmZU1o37MeD3Q
+                                                                                                                                                                                              Na/0SD1wP254OVtsq1984E1tPO9t3YaTyZqqzQvtRec+Nn7+OnBNmt0dzQ4PLs/N
+                                                                                                                                                                                              3hl89L6p+Hz3ntMt45ZNS3b0/QLNoD1Q
+                                                                                                                                                                                              =lw8y
+                                                                                                                                                                                              -----END PGP MESSAGE-----
+
+                                                                                                                                                                                              And finally, I am proving ownership of this host by posting or
+                                                                                                                                                                                              appending to this document.
+
+                                                                                                                                                                                              View my publicly-auditable identity here: https://keybase.io/natehak
+
+                                                                                                                                                                                              ==================================================================
+
