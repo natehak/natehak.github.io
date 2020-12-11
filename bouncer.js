@@ -20,8 +20,23 @@ let locationY = textHeight+1;
 let velocityX = Math.random() * 4;
 let velocityY = Math.random() * 4;
 
-function drawFrame() {
+let rainbow = false;
+let color = 0;
+
+canvas.onclick = () => {
+    rainbow = true;
+    velocityX = Math.random() * 4 * Math.sign(velocityX);
+    velocityY = Math.random() * 4 * Math.sign(velocityY);
     context.clearRect(0, 0, canvas.width, canvas.height);
+};
+
+function drawFrame() {
+    if (rainbow) {
+        color = (color + 1) % 360;
+        context.fillStyle = `hsl(${color}, 100%, 50%)`;;
+    } else {
+        context.clearRect(0, 0, canvas.width, canvas.height);
+    }
 
     locationX += velocityX;
     locationY += velocityY;
@@ -35,6 +50,7 @@ function drawFrame() {
     }
 
     context.fillText('Nathan Hakkakzadeh', locationX, locationY, textWidth);
+    context.strokeText('Nathan Hakkakzadeh', locationX, locationY, textWidth);
 }
 
 setInterval(drawFrame, interval);
