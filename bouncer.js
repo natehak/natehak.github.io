@@ -7,49 +7,80 @@ document.body.height = window.innerHeight;
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const textWidth = 800;
+const width = 800;
 const textHeight = 100;
 
 context.font = '100px serif';
 
 const interval = 1;
 
-let locationX = 1;
-let locationY = textHeight+1;
+function createText(text, x, y, width, color) {
+    return {
+        x: x,
+        y: y,
 
-let velocityX = Math.random() * 4;
-let velocityY = Math.random() * 4;
+        vx: Math.random() * 4,
+        vy: Math.random() * 4,
+
+        text: text,
+        width: width,
+        color: color,
+
+        update() {
+            this.x += this.vx;
+            this.y += this.vy;
+
+            if (this.x >= (canvas.width - this.width) || this.x <= 0) {
+                this.vx = -1 * this.vx;
+            }
+
+            if (this.y >= canvas.height || this.y <= textHeight) {
+                this.vy = -1 * this.vy;
+            }
+        },
+
+        draw() {
+            if (rainbow) {
+                this.color = (this.color + 1) % 360;
+                context.fillStyle = `hsl(${this.color}, 100%, 50%)`;;
+            }
+            context.fillText(this.text, this.x, this.y, this.width);
+            context.strokeText(this.text, this.x, this.y, this.width);
+        }
+    };
+}
+
+let mainText = createText('Nathan Hakkakzadeh', 1, textHeight + 1, 800, 0);
+let texts = [mainText];
 
 let rainbow = false;
-let color = 0;
+let split = false;
 
 canvas.onclick = () => {
+    if (split) {
+        for (text of texts) {
+            text.vx = Math.random() * 4 * Math.sign(text.vx);
+            text.vy = Math.random() * 4 * Math.sign(text.vy);
+        }
+    }
+    if (rainbow) {
+        for (let i = 0; i < mainText.text.length; i++) {
+            texts.push(createText(mainText.text[i], mainText.x + (i * 45), mainText.y, 45, Math.random() * 360));
+        }
+        split = true;
+    }
     rainbow = true;
-    velocityX = Math.random() * 4 * Math.sign(velocityX);
-    velocityY = Math.random() * 4 * Math.sign(velocityY);
 };
 
 function drawFrame() {
-    if (rainbow) {
-        color = (color + 1) % 360;
-        context.fillStyle = `hsl(${color}, 100%, 50%)`;;
-    } else {
+    if (!rainbow) {
         context.clearRect(0, 0, canvas.width, canvas.height);
     }
 
-    locationX += velocityX;
-    locationY += velocityY;
-
-    if (locationX >= (canvas.width - textWidth) || locationX <= 0) {
-        velocityX = -1 * velocityX;
+    for (text of texts) {
+        text.update();
+        text.draw();
     }
-
-    if (locationY >= canvas.height || locationY <= textHeight) {
-        velocityY = -1 * velocityY;
-    }
-
-    context.fillText('Nathan Hakkakzadeh', locationX, locationY, textWidth);
-    context.strokeText('Nathan Hakkakzadeh', locationX, locationY, textWidth);
 }
 
 setInterval(drawFrame, interval);
