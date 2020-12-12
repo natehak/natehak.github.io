@@ -27,7 +27,6 @@ canvas.onclick = () => {
     rainbow = true;
     velocityX = Math.random() * 4 * Math.sign(velocityX);
     velocityY = Math.random() * 4 * Math.sign(velocityY);
-    context.clearRect(0, 0, canvas.width, canvas.height);
 };
 
 function drawFrame() {
