@@ -10,17 +10,17 @@ canvas.height = window.innerHeight;
 const width = 800;
 const textHeight = 100;
 
-context.font = '100px serif';
+const velocityMultiplier = 9;
 
-const interval = 1;
+context.font = '100px serif';
 
 function createText(text, x, y, width, color) {
     return {
         x: x,
         y: y,
 
-        vx: Math.random() * 4,
-        vy: Math.random() * 4,
+        vx: Math.random() * velocityMultiplier,
+        vy: Math.random() * velocityMultiplier,
 
         text: text,
         width: width,
@@ -59,8 +59,8 @@ let split = false;
 canvas.onclick = () => {
     if (split) {
         for (text of texts) {
-            text.vx = Math.random() * 4 * Math.sign(text.vx);
-            text.vy = Math.random() * 4 * Math.sign(text.vy);
+            text.vx = Math.random() * velocityMultiplier * Math.sign(text.vx);
+            text.vy = Math.random() * velocityMultiplier * Math.sign(text.vy);
         }
     }
     if (rainbow) {
@@ -81,6 +81,8 @@ function drawFrame() {
         text.update();
         text.draw();
     }
+
+    window.requestAnimationFrame(drawFrame);
 }
 
-setInterval(drawFrame, interval);
+window.requestAnimationFrame(drawFrame);
