@@ -1,4 +1,4 @@
-const canvas = document.getElementById("bouncer");
+const canvas = document.getElementById("display");
 const context = canvas.getContext("2d");
 
 // Make canvas the size of the window
@@ -58,7 +58,7 @@ let split = false;
 
 canvas.onclick = () => {
     if (split) {
-        for (text of texts) {
+        for (let text of texts) {
             text.vx = Math.random() * velocityMultiplier * Math.sign(text.vx);
             text.vy = Math.random() * velocityMultiplier * Math.sign(text.vy);
         }
@@ -77,7 +77,7 @@ function drawFrame() {
         context.clearRect(0, 0, canvas.width, canvas.height);
     }
 
-    for (text of texts) {
+    for (let text of texts) {
         text.update();
         text.draw();
     }
